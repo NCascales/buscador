@@ -1,22 +1,22 @@
 /*Portada*/
 
-
+/*el bloque morado*/
 .blog-container-cover{
     width: 100%;
     height: 500px;
     position: relative;
     margin-top: 80px;
-    background-image: url(../img/img3.jpg);
+    background-image: url(../img/logo_orquidea.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+/*color del bloque*/
 .blog-container-cover:before{
     content: '';
     width: 100%;
     height: 100%;
-    background: rgba(25, 81, 235, 0.76);
+    background: rgba(42, 4, 49, 0.76);
     position: absolute;
     top: 0;
     left: 0;
