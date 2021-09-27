@@ -80,6 +80,7 @@ input[type="radio"]{
 /*Post - Publicaciones*/
 
 .container-post{
+    height: fit-content;
     max-width: 1200px;
     margin: auto;
 }
@@ -115,6 +116,8 @@ input[type="radio"]{
 .post h2{
     font-size: 18px;
     margin-top: 20px;
+    text-align: center;
+    justify-content: center;
     padding: 0px 20px;
 }
 
@@ -122,6 +125,14 @@ input[type="radio"]{
     display: block;
     margin-top: 10px;
     padding: 0px 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.post a{
+    display: block;
+    text-align: center;
+    justify-content: center;
 }
 
 .ctn-tag{
@@ -147,7 +158,7 @@ input[type="radio"]{
     margin-left: 20px;
     padding: 10px 50px;
     font-size: 16px;
-    background: #46a2fd;
+    background: #450747;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -165,23 +176,21 @@ input[type="radio"]{
     display: block;
 }
 
-[value="HTML"]:checked ~ .posts .post:not([data-category~="HTML"]),
-[value="CSS"]:checked ~ .posts .post:not([data-category~="CSS"]),
-[value="JS"]:checked ~ .posts .post:not([data-category~="JS"]),
-[value="PHP"]:checked ~ .posts .post:not([data-category~="PHP"]),
-[value="NODEJS"]:checked ~ .posts .post:not([data-category~="NODEJS"]),
-[value="VUE"]:checked ~ .posts .post:not([data-category~="VUE"]){
+[value="LLAVERO"]:checked ~ .posts .post:not([data-category~="LLAVERO"]),
+[value="SEPARADOR"]:checked ~ .posts .post:not([data-category~="SEPARADOR"]),
+[value="PULSERA"]:checked ~ .posts .post:not([data-category~="PULSERA"]),
+[value="PENDIENTE"]:checked ~ .posts .post:not([data-category~="PENDIENTE"]),
+[value="COLLAR"]:checked ~ .posts .post:not([data-category~="COLLAR"]){
     display: none;
 }
 
 [value="TODOS"]:checked ~ .container-category [for="TODOS"],
-[value="HTML"]:checked ~ .container-category [for="HTML"],
-[value="CSS"]:checked ~ .container-category [for="CSS"],
-[value="JS"]:checked ~ .container-category [for="JS"],
-[value="PHP"]:checked ~ .container-category [for="PHP"],
-[value="NODEJS"]:checked ~ .container-category [for="NODEJS"],
-[value="VUE"]:checked ~ .container-category [for="VUE"]{
-    background: #46a2fd;
+[value="LLAVERO"]:checked ~ .container-category [for="LLAVERO"],
+[value="SEPARADOR"]:checked ~ .container-category [for="SEPARADOR"],
+[value="PULSERA"]:checked ~ .container-category [for="PULSERA"],
+[value="PENDIENTE"]:checked ~ .container-category [for="PENDIENTE"],
+[value="COLLAR"]:checked ~ .container-category [for="COLLAR"]{
+    background: #450747;
     color: #fff;
 }
 
