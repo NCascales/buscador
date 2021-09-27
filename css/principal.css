@@ -212,6 +212,14 @@ header{
     margin-top: 40px;
 }
 
+.container-contacto{
+    width: 100%;
+    padding: 40px 0;
+    background: #450747;
+    margin-top: 40px;
+}
+
+
 .container-footer footer{
     max-width: 1200px;
     margin: auto;
