@@ -188,20 +188,17 @@ input[type="radio"]{
 }
 
 [value="RESINA"]:checked ~ .posts .post:not([data-category~="RESINA"]),
-[value="PERSONALIZADO"]:checked ~ .posts .post:not([data-category~="PERSONALIZADO"])
-/*,
-[value="SEPARADOR"]:checked ~ .posts .post:not([data-category~="SEPARADOR"]),
-[value="PENDIENTE"]:checked ~ .posts .post:not([data-category~="PENDIENTE"]),
-[value="COLLAR"]:checked ~ .posts .post:not([data-category~="COLLAR"])*/{
+[value="PERSONALIZADO"]:checked ~ .posts .post:not([data-category~="PERSONALIZADO"]),
+[value="HUESO"]:checked ~ .posts .post:not([data-category~="HUESO"]),
+[value="HUELLA"]:checked ~ .posts .post:not([data-category~="HUELLA"]){
     display: none;
 }
 
 [value="TODOS"]:checked ~ .container-category [for="TODOS"],
 [value="RESINA"]:checked ~ .container-category [for="RESINA"],
-[value="PERSONALIZADO"]:checked ~ .container-category [for="PERSONALIZADO"]/*,
-[value="SEPARADOR"]:checked ~ .container-category [for="SEPARADOR"],
-[value="PENDIENTE"]:checked ~ .container-category [for="PENDIENTE"],
-[value="COLLAR"]:checked ~ .container-category [for="COLLAR"]*/{
+[value="PERSONALIZADO"]:checked ~ .container-category [for="PERSONALIZADO"],
+[value="HUESO"]:checked ~ .container-category [for="HUESO"],
+[value="HUELLA"]:checked ~ .container-category [for="HUELLA"]{
     background: #450747;
     color: #fff;
 }
