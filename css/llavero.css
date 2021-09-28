@@ -107,7 +107,7 @@ input[type="radio"]{
 }
 
 .posts .post{
-    background: #fff;
+    background: #f5f4f400;
     box-shadow: 0 0 20px -20px black;
     border-radius: 6px;
     overflow: hidden;
@@ -123,7 +123,7 @@ input[type="radio"]{
     height: 100%;
     object-fit: cover;
 }
-
+/* --NO SE USAN AHORA
 .post h2{
     font-size: 18px;
     margin-top: 20px;
@@ -144,7 +144,7 @@ input[type="radio"]{
     display: block;
     text-align: center;
     justify-content: center;
-}
+}*/
 
 .ctn-tag{
     width: 100%;
@@ -187,20 +187,20 @@ input[type="radio"]{
     display: block;
 }
 
-[value="LLAVERO"]:checked ~ .posts .post:not([data-category~="LLAVERO"]),
+[value="RESINA"]:checked ~ .posts .post:not([data-category~="RESINA"])/*,
 [value="SEPARADOR"]:checked ~ .posts .post:not([data-category~="SEPARADOR"]),
 [value="PULSERA"]:checked ~ .posts .post:not([data-category~="PULSERA"]),
 [value="PENDIENTE"]:checked ~ .posts .post:not([data-category~="PENDIENTE"]),
-[value="COLLAR"]:checked ~ .posts .post:not([data-category~="COLLAR"]){
+[value="COLLAR"]:checked ~ .posts .post:not([data-category~="COLLAR"])*/{
     display: none;
 }
 
 [value="TODOS"]:checked ~ .container-category [for="TODOS"],
-[value="LLAVERO"]:checked ~ .container-category [for="LLAVERO"],
+[value="RESINA"]:checked ~ .container-category [for="RESINA"]/*,
 [value="SEPARADOR"]:checked ~ .container-category [for="SEPARADOR"],
 [value="PULSERA"]:checked ~ .container-category [for="PULSERA"],
 [value="PENDIENTE"]:checked ~ .container-category [for="PENDIENTE"],
-[value="COLLAR"]:checked ~ .container-category [for="COLLAR"]{
+[value="COLLAR"]:checked ~ .container-category [for="COLLAR"]*/{
     background: #450747;
     color: #fff;
 }
