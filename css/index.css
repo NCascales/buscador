@@ -191,6 +191,7 @@ input[type="radio"]{
 [value="SEPARADOR"]:checked ~ .posts .post:not([data-category~="SEPARADOR"]),
 [value="PULSERA"]:checked ~ .posts .post:not([data-category~="PULSERA"]),
 [value="PENDIENTE"]:checked ~ .posts .post:not([data-category~="PENDIENTE"]),
+[value="PERSONALIZADO"]:checked ~ .posts .post:not([data-category~="PERSONALIZADO"]),
 [value="COLLAR"]:checked ~ .posts .post:not([data-category~="COLLAR"]){
     display: none;
 }
@@ -200,6 +201,7 @@ input[type="radio"]{
 [value="SEPARADOR"]:checked ~ .container-category [for="SEPARADOR"],
 [value="PULSERA"]:checked ~ .container-category [for="PULSERA"],
 [value="PENDIENTE"]:checked ~ .container-category [for="PENDIENTE"],
+[value="PERSONALIZADO"]:checked ~ .container-category [for="PERSONALIZADO"],
 [value="COLLAR"]:checked ~ .container-category [for="COLLAR"]{
     background: #450747;
     color: #fff;
