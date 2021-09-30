@@ -167,6 +167,9 @@ input[type="radio"]{
 
 [value="RESINA"]:checked ~ .posts .post:not([data-category~="RESINA"]),
 [value="PERSONALIZADO"]:checked ~ .posts .post:not([data-category~="PERSONALIZADO"]),
+[value="CATEGORIA1"]:checked ~ .posts .post:not([data-category~="CATEGORIA1"]),
+[value="CATEGORIA2"]:checked ~ .posts .post:not([data-category~="CATEGORIA2"]),
+[value="CATEGORIA3"]:checked ~ .posts .post:not([data-category~="CATEGORIA3"]),
 [value="HUESO"]:checked ~ .posts .post:not([data-category~="HUESO"]),
 [value="HUELLA"]:checked ~ .posts .post:not([data-category~="HUELLA"]){
     display: none;
@@ -175,6 +178,9 @@ input[type="radio"]{
 [value="TODOS"]:checked ~ .container-category [for="TODOS"],
 [value="RESINA"]:checked ~ .container-category [for="RESINA"],
 [value="PERSONALIZADO"]:checked ~ .container-category [for="PERSONALIZADO"],
+[value="CATEGORIA1"]:checked ~ .container-category [for="CATEGORIA1"],
+[value="CATEGORIA2"]:checked ~ .container-category [for="CATEGORIA2"],
+[value="CATEGORIA3"]:checked ~ .container-category [for="CATEGORIA3"],
 [value="HUESO"]:checked ~ .container-category [for="HUESO"],
 [value="HUELLA"]:checked ~ .container-category [for="HUELLA"]{
     background: #450747;
